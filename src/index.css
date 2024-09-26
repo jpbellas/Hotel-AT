@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.hotel-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 20px; /* Aumentado o espaçamento */
+  border-radius: 5px;
+  transition: 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form input, form textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+:root {
+  --background-color: #f8f9fa;
+  --text-color: #333;
+}
+
+.dark {
+  --background-color: #333;
+  --text-color: #f8f9fa;
+}
+nav {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 40px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
